@@ -165,6 +165,8 @@ export default class ExponentVideo extends React.Component<ExponentVideoProps> {
         controls={useNativeControls}
         style={[style, customStyle]}
         playsInline
+        controlsList={"nodownload"}
+        disablePictureInPicture
       />
     );
   }
